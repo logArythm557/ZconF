@@ -1,6 +1,6 @@
 # Zconf
 
-ZconF is an attempt to create a Zinger conversion Framework in C#. It was concieved during a discussion over how much it would cost to have a KFC&reg; Zinger&trade; Burger every day for a year.
+ZconF is an attempt to create a Zinger&trade; conversion Framework in C#. It was concieved during a discussion over how much it would cost to have a KFC&reg; Zinger&trade; Burger every day for a year.
 
 Currently, the program takes the number of Zinger&trade; burgers as user input, and multiplies them by the price of a Zinger&trade; burger in Adelaide, Australia ($5.95).
 
