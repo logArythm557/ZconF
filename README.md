@@ -1,4 +1,4 @@
-# Zconf
+# ZconF
 
 ZconF is an attempt to create a Zinger&trade; conversion Framework in C#. It was conceived during a discussion over how much it would cost to have a KFC&reg; Zinger&trade; Burger every day for a year.
 
