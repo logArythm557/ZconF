@@ -25,7 +25,7 @@ namespace dollars2zingers
 			bool valid = false;
 			while(!valid)
 			{
-				Console.WriteLine("Please enter your Zinger budget: $");
+				Console.WriteLine("Please enter your Zinger budget in dollars");
 				string input = Console.ReadLine();
 				if(decimal.TryParse(input, out number))
 				{
@@ -45,9 +45,11 @@ namespace dollars2zingers
 			//calculates the remainder through modulus
 			outputQ = number / ZING_COST;
 			outputR = number % ZING_COST;
-			
+			 
+            //need to round the number of zingers too
+
 			//Writes output to prompt
-			Console.WriteLine("The amount of Zingers you can buy for $" + number.ToString("C") " is" + outputQ.ToString("C") "with " + outputR.ToString("C") "leftover");
+			Console.WriteLine("The amount of Zingers you can buy for $" + number.ToString("C") + " is " + outputQ.ToString("C") + " with " + outputR.ToString("C") + " leftover");
 		}
 	}
 }
