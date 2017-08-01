@@ -8,5 +8,4 @@ Currently, the program takes the number of Zinger&trade; burgers as user input, 
 
 - ### <b>FIX dollars2zingers.cs</b>
 - create database of Zinger&trade; prices globally, sorted by country code and postcode
-- reverse the process, list how many Zinger&trade; burgers can be purchased with a user-defined amount of money
 - adjust for local currency and exchange rates
