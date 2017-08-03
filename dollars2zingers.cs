@@ -62,6 +62,7 @@ namespace dollars2zingers
             numString = number.ToString("C");
             //Writes output to prompt
             Console.WriteLine("The amount of Zingers you can buy for {0} is {1} with {2} leftover", numString, qString, rString );
+            Console.ReadKey();
         }
 	}
 }
