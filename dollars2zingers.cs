@@ -57,11 +57,11 @@ namespace dollars2zingers
         //TODO figure out how to drop the tailing zeroes when outputQ is converted to a string
 
             //converts variables from decimal values to strings
-            qString = outputQ.ToString("C");
+            qString = outputQ.ToString();
             rString = outputR.ToString("C");
             numString = number.ToString("C");
             //Writes output to prompt
-            Console.WriteLine("The amount of Zingers you can buy for ${0} is {1} with ${2} leftover", numString, qString, rString );
+            Console.WriteLine("The amount of Zingers you can buy for {0} is {1} with {2} leftover", numString, qString, rString );
         }
 	}
 }
