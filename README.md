@@ -8,3 +8,4 @@ Currently, the program takes the number of Zinger&trade; burgers as user input, 
 
 - create database of Zinger&trade; prices globally, sorted by country code and postcode
 - adjust for local currency and exchange rates
+- introduce menuing system (possibly command line options as well?)
